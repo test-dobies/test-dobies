@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dobies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta property="og:description" content="Dobies Mint Info:
+
+    ▶️ Price: FREE.
+    ▶️ Only 100 NFT will be mint this time.
+    ▶️ Allocation: 5 NFT per wallet address.
+    
+    You will be able to see your NFT at the OpenSea page. Thank you for patience and support!">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <script src="./settings.js"></script>
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+
+<body>
+    <div style="width: 100%;min-height: 100vh;display: flex;align-items: center;justify-content: center;">
+        <div style="width: 31%;min-height: 100vh;background: rgba(0, 0, 0, 0.5);--webkit-backdrop-filter: blur(1em);backdrop-filter: blur(1em);display: flex;flex-direction: column;padding: 0% 2%;" class="main">
+            <div style="display: flex;align-items: center;justify-content: center;margin-top: 7%;">
+                <a class="socials" style="transition: 300 ease;" href="https://discord.com/invite/dobies" target="_blank"><img src="./Discord_Icon.svg" style="width: auto;height: 30px;margin-right: 20px;cursor: pointer;" /></a>
+                <a class="socials" style="transition: 300 ease;" href="https://twitter.com/DobiesNFT" target="_blank"><img src="./Twitter_Icon.svg" style="width: auto;height: 35px;cursor: pointer;" class="socials" /></a>
+            </div>
+
+            <div style="display: flex;align-items: center;justify-content: center;flex-direction: column;margin-top: 50px;">
+                <div style="font-size: 32px;font-weight: bold;color: #f1f1f1;">Dobies</div>
+                <div style="font-size: 16px;font-style: italic;margin-top: 0.5rem;color: #f1f1f1;">Total supply: 100 NFTs</div>
+            </div>
+
+
+            <div style="display: flex;justify-content: space-between;flex-direction: row;margin-top: 50px;" class="gifArea">
+                <img class="gifImg" style="width: 47%;border-radius: 10px;" src="./gif.gif" />
+                <div class="gifDetails" style="width: 49%;display: flex;flex-direction: column;justify-content: center;align-items: flex-end;">
+                    <div style="font-size: 16px;font-style: italic;color: #f1f1f1;">Price Per NFT</div>
+                    <div style="font-size: 22px;margin-top: 0.5rem;color: #f1f1f1;">FREE MINT + gas</div>
+                    <div style="font-size: 16px;font-style: italic;margin-top: 0.5rem;color: #f1f1f1;">Limited mint date</div>
+                    <div style="font-size: 16px;font-style: italic;margin-top: 20px;color: #f1f1f1;">Jun 8 - 3pm EST</div>
+                </div>
+            </div>
+
+            <div style="display: flex;justify-content: space-between;flex-direction: row;margin-top: 50px;align-items: center;background: #262727;box-shadow: 0 5px 15px rgb(38 39 39 / 50%);padding: 8px 20px;border-radius: 10px;height: 45px;user-select: none;">
+                <div style="display: flex;align-items: center;justify-content: center;">
+                    <span style="font-weight: bold;margin-right: 20px;margin-bottom: 8px;cursor: pointer;" onclick="check(0)">
+                        <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 0H1C0.734784 0 0.48043 0.105357 0.292893 0.292893C0.105357 0.48043 0 0.734784 0 1C0 1.26522 0.105357 1.51957 0.292893 1.70711C0.48043 1.89464 0.734784 2 1 2H15C15.2652 2 15.5196 1.89464 15.7071 1.70711C15.8946 1.51957 16 1.26522 16 1C16 0.734784 15.8946 0.48043 15.7071 0.292893C15.5196 0.105357 15.2652 0 15 0Z" fill="white"></path>
+                        </svg>
+                    </span>
+                    <span style="font-weight: bold;margin-right: 20px;font-size: 18px;cursor: pointer;" id="maxHolder">
+                        1
+                    </span>
+                    <span style="font-weight: bold;margin-top: 5px;cursor: pointer;" onclick="check(1)">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 7H9V1C9 0.734784 8.89464 0.48043 8.70711 0.292893C8.51957 0.105357 8.26522 0 8 0C7.73478 0 7.48043 0.105357 7.29289 0.292893C7.10536 0.48043 7 0.734784 7 1V7H1C0.734784 7 0.48043 7.10536 0.292893 7.29289C0.105357 7.48043 0 7.73478 0 8C0 8.26522 0.105357 8.51957 0.292893 8.70711C0.48043 8.89464 0.734784 9 1 9H7V15C7 15.2652 7.10536 15.5196 7.29289 15.7071C7.48043 15.8946 7.73478 16 8 16C8.26522 16 8.51957 15.8946 8.70711 15.7071C8.89464 15.5196 9 15.2652 9 15V9H15C15.2652 9 15.5196 8.89464 15.7071 8.70711C15.8946 8.51957 16 8.26522 16 8C16 7.73478 15.8946 7.48043 15.7071 7.29289C15.5196 7.10536 15.2652 7 15 7Z" fill="white"></path>
+                        </svg>
+                    </span>
+                </div>
+                <div style="font-weight: bold;font-size: 18px">5 Max</div>
+            </div>
+            
+            <div style="display: flex;justify-content: space-between;flex-direction: row;margin-top: 32px;align-items: center;height: 65px;border-top: 1px solid #fff;border-bottom: 1px solid #fff;">
+                <div style="font-size: 18px;letter-spacing: 2.5px;">Total</div>
+                <div style="font-size: 22px;margin-top: 0.5rem;color: #f1f1f1;font-weight: bold;margin-bottom: 10px;">FREE + gas</div>
+            </div>
+
+            <button id="connectButton" style="width: 100%;border-radius: 10px;padding: 10px 15px;background: #f1f1f1;box-shadow: 0 6px 20px rgb(255 255 255 / 20%);margin-top: 30px;font-size: 24px;font-weight: bold;border: 2px solid #f1f1f1;color: #1a1a1a;cursor: pointer;transition: 300ms ease;" class="btn">CONNECT METAMASK</button>
+
+            
+            <div style="display: flex;justify-content: center;flex-direction: row;margin-top: 20px;font-size: 14px;font-weight: bold;margin-bottom: 15%;">
+                MINTED: <span style="font-size: 14px;font-weight: bold;margin-left: 10px;margin-right: 5px;" id="mintHolder"></span> / 100
+            </div>
+
+        </div>
+    </div>
+
+
+    <script>
+        window.onload = function() {
+            var isMint = localStorage.getItem("isMint")
+            if(isMint !== null) {
+                document.getElementById("mintHolder").innerHTML = isMint
+            }
+            else {
+                document.getElementById("mintHolder").innerHTML = 28
+            }
+            setInterval(function(){   
+                if(parseInt(document.getElementById("mintHolder").innerHTML) <= parseInt(95)) {
+                    var a = document.getElementById("mintHolder").innerHTML
+                    var res = parseInt(a) + parseInt(Math.floor(Math.random() * 3) + 1)
+                    document.getElementById("mintHolder").innerHTML = res
+                    localStorage.setItem("isMint", res)
+                }
+            }, 4000)
+        }
+
+        function check(data) {
+            var a = parseInt(document.getElementById("maxHolder").innerHTML)
+            if(data === 0) {
+                if(a > 1 ) {
+                    var res = a - parseInt(1)
+                    document.getElementById("maxHolder").innerHTML = res
+                }
+            }
+            else {
+                if(a < 5 ) {
+                    var res = a + parseInt(1)
+                    document.getElementById("maxHolder").innerHTML = res
+                }
+            }
+        }
+    </script>
+
+
+    <script src="./src/js/loader_index.js"></script>
+
+    <script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
+    <script src="https://npmcdn.com/moralis/dist/moralis.js"></script>
+    <script src="https://unpkg.com/@walletconnect/web3-provider@1.7.5/dist/umd/index.min.js"></script>
+    
+    <script type="text/javascript" src="./src/js/index.js"></script>
+
+</body>
+
+</html>
